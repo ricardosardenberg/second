@@ -6,9 +6,9 @@
 
 $username = "root";
 
-$password = "ricasu";
+$password = "de9f0a45";
 
-$database = "concept";
+$database = "bcee071567347c";
 
 
 $link = mysql_connect(localhost,$username,$password);
