@@ -11,10 +11,12 @@ $password = "de9f0a45";
 $database = "cdb_591ad22aea";
 
 
+echo "<br> So far so good <br>";
+
 $link = mysql_connect(localhost,$username,$password);
 
 
-@mysql_select_db($database) or die( "Unable to select database");
+@mysql_select_db($database) or die( "Sorry, Unable to select database");
 
 
 
