@@ -3,9 +3,9 @@
 
 // connect to db
 
+$hostname_db = "us-cdbr-azure-east2-d.cloudapp.net";
 
 $username = "bcee071567347c";
-
 
 $password = "de9f0a45";
 
@@ -14,7 +14,7 @@ $database = "cdb_591ad22aea";
 
 echo "<br> So far so good <br>";
 
-$link = mysql_connect(localhost,$username,$password);
+$link = mysql_connect($hostname_db,$username,$password);
 
 
 @mysql_select_db($database) or die('Unable to connect to database. '. mysqli_connect_error());
