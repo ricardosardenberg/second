@@ -638,14 +638,16 @@ return $distance;
 // connect to db
 
 
-$username = "root";
+$localhost_db = "us-cdbr-azure-east2-d.cloudapp.net";
 
-$password = "ricasu";
+$username = "b571b1c9c8789f";
 
-$database = "localpha";
+$password = "6e9a501d";
+
+$database = "movelusAWzrTPBhw";
 
 
-$link = mysql_connect(localhost,$username,$password);
+$link = mysql_connect(localhost_db,$username,$password);
 
 
 @mysql_select_db($database) or die( "Unable to select database");
