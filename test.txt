@@ -647,7 +647,7 @@ $password = "6e9a501d";
 $database = "movelusAWzrTPBhw";
 
 
-$link = mysql_connect(localhost_db,$username,$password);
+$link = mysql_connect($localhost_db,$username,$password);
 
 
 @mysql_select_db($database) or die( "Unable to select database");
