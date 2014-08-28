@@ -847,7 +847,10 @@ if ( $debugall || $debugstep040 )
 // Select from Service
 
 
-$querser = "SELECT DISTINCT idworker, servicename FROM service WHERE servicename like '%$searchinput%' "; 
+// $querser = "SELECT DISTINCT idworker, servicename FROM service WHERE servicename like '%$searchinput%' "; 
+
+
+$querser = "SELECT DISTINCT idworker, servicename FROM service WHERE servicename like '$searchinput' ";
 
 
 $resultser = mysql_query($querser);
