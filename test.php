@@ -748,10 +748,14 @@ $a = 0;
 $searchinput = $_POST['searchinput'];
 
 
-$name = $_POST['name'];
+$debugall    = $_POST['debugall'];
 
 
-echo "<br> Name is $name <br>";
+$name        = $_POST['name'];
+
+
+
+// echo "<br> Name is $name <br>";
 
 
 
@@ -1590,7 +1594,7 @@ body { margin-left:100px; }
 
 <div id="searchwrapper">
 
-<form action="http://www.movelus.com/id/movelus/searchweb.php" method="post">
+<form action="test.php" method="post">
 <input type="text" class="searchbox1" name="searchinput" size = 120 value="<?php echo $searchfirst ?>" />
 <input type="text" class="searchbox2" name="loc" size = 50 value="<?php echo $locfirst ?>" />
 
