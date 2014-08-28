@@ -673,7 +673,7 @@ mysql_query('SET character_set_results=utf8');
 
 header('Content-Type: text/html; charset=utf-8');
 
-$debugall    = FALSE;
+$debugall     = TRUE;
 
 $debugstep010 = FALSE;
 
@@ -751,7 +751,7 @@ $searchinput = $_POST['searchinput'];
 $name = $_POST['name'];
 
 
-// echo "<br> Name is $name <br>";
+echo "<br> Name is $name <br>";
 
 
 
